@@ -1,0 +1,34 @@
+package org.jeecg.modules.system.entity;
+
+import com.baomidou.mybatisplus.annotation.IdType;
+import com.baomidou.mybatisplus.annotation.TableId;
+import com.fasterxml.jackson.annotation.JsonFormat;
+import lombok.Data;
+import lombok.EqualsAndHashCode;
+import lombok.experimental.Accessors;
+import org.springframework.format.annotation.DateTimeFormat;
+
+import java.io.Serializable;
+import java.util.Date;
+
+@Data
+@EqualsAndHashCode(callSuper = false)
+@Accessors(chain = true)
+public class SysLanguageItem implements Serializable {
+	private static final long serialVersionUID = 1L;
+
+	@TableId(type = IdType.ASSIGN_ID)
+	private String id; //id'
+	private String createBy; //创建人登录名称
+	@JsonFormat(timezone = "GMT+8",pattern = "yyyy-MM-dd HH:mm:ss")
+    @DateTimeFormat(pattern="yyyy-MM-dd HH:mm:ss")
+	private Date createTime; //创建日期
+	private String updateBy; //更新人登录名称
+	@JsonFormat(timezone = "GMT+8",pattern = "yyyy-MM-dd HH:mm:ss")
+    @DateTimeFormat(pattern="yyyy-MM-dd HH:mm:ss")
+	private Date updateTime; //更新日期
+	private String sysLanguageId;
+	private String sysLanguageCode;
+	private String langKey;
+	private String langValue;
+}

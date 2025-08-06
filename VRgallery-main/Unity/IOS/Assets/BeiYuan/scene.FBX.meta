@@ -1,0 +1,441 @@
+fileFormatVersion: 2
+guid: 0394b749f64c1da4aa7365ff63078a12
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: BBox_07
+    100002: Board
+    100004: Box_01
+    100006: Box_02
+    100008: Box_03
+    100010: Box_04
+    100012: Box_05
+    100014: Box_06
+    100016: Box_08
+    100018: Ceiling
+    100020: Cylinder
+    100022: Floor
+    100024: Floor_02
+    100026: Floor_03
+    100028: Glass
+    100030: Light
+    100032: LightBox
+    100034: Metal_01
+    100036: Metal_02
+    100038: Picture_01
+    100040: Picture_02
+    100042: Picture_03
+    100044: //RootNode
+    100046: TV_01
+    100048: TV_01_Frame
+    100050: TV_02
+    100052: TV_02_Frame
+    100054: TV_03
+    100056: TV_03_Frame
+    100058: TV_04
+    100060: TV_04_Frame
+    100062: TV_05
+    100064: TV_05_Frame
+    100066: wall
+    100068: Box_09
+    100070: Box_10
+    100072: Box_11
+    100074: Picture_04
+    100076: Picture_05
+    100078: Picture_06
+    100080: Picture_07
+    100082: Picture_08
+    100084: Picture_09
+    400000: BBox_07
+    400002: Board
+    400004: Box_01
+    400006: Box_02
+    400008: Box_03
+    400010: Box_04
+    400012: Box_05
+    400014: Box_06
+    400016: Box_08
+    400018: Ceiling
+    400020: Cylinder
+    400022: Floor
+    400024: Floor_02
+    400026: Floor_03
+    400028: Glass
+    400030: Light
+    400032: LightBox
+    400034: Metal_01
+    400036: Metal_02
+    400038: Picture_01
+    400040: Picture_02
+    400042: Picture_03
+    400044: //RootNode
+    400046: TV_01
+    400048: TV_01_Frame
+    400050: TV_02
+    400052: TV_02_Frame
+    400054: TV_03
+    400056: TV_03_Frame
+    400058: TV_04
+    400060: TV_04_Frame
+    400062: TV_05
+    400064: TV_05_Frame
+    400066: wall
+    400068: Box_09
+    400070: Box_10
+    400072: Box_11
+    400074: Picture_04
+    400076: Picture_05
+    400078: Picture_06
+    400080: Picture_07
+    400082: Picture_08
+    400084: Picture_09
+    2100000: Ceiling
+    2100002: TV_Farme
+    2100004: Board
+    2100006: Metal_02
+    2100008: Box_01
+    2100010: LightBox
+    2100012: Cylinder
+    2100014: Picture_01
+    2100016: Glass
+    2100018: Metal_01
+    2100020: wall
+    2100022: Floor
+    2100024: Picture_02
+    2100026: Picture_03
+    2100028: Light
+    2100030: TV
+    2100032: Floor_02
+    2100034: Floor_03
+    2300000: BBox_07
+    2300002: Board
+    2300004: Box_01
+    2300006: Box_02
+    2300008: Box_03
+    2300010: Box_04
+    2300012: Box_05
+    2300014: Box_06
+    2300016: Box_08
+    2300018: Ceiling
+    2300020: Cylinder
+    2300022: Floor
+    2300024: Floor_02
+    2300026: Floor_03
+    2300028: Glass
+    2300030: Light
+    2300032: LightBox
+    2300034: Metal_01
+    2300036: Metal_02
+    2300038: Picture_01
+    2300040: Picture_02
+    2300042: Picture_03
+    2300044: TV_01
+    2300046: TV_01_Frame
+    2300048: TV_02
+    2300050: TV_02_Frame
+    2300052: TV_03
+    2300054: TV_03_Frame
+    2300056: TV_04
+    2300058: TV_04_Frame
+    2300060: TV_05
+    2300062: TV_05_Frame
+    2300064: wall
+    2300066: Box_09
+    2300068: Box_10
+    2300070: Box_11
+    2300072: Picture_04
+    2300074: Picture_05
+    2300076: Picture_06
+    2300078: Picture_07
+    2300080: Picture_08
+    2300082: Picture_09
+    3300000: BBox_07
+    3300002: Board
+    3300004: Box_01
+    3300006: Box_02
+    3300008: Box_03
+    3300010: Box_04
+    3300012: Box_05
+    3300014: Box_06
+    3300016: Box_08
+    3300018: Ceiling
+    3300020: Cylinder
+    3300022: Floor
+    3300024: Floor_02
+    3300026: Floor_03
+    3300028: Glass
+    3300030: Light
+    3300032: LightBox
+    3300034: Metal_01
+    3300036: Metal_02
+    3300038: Picture_01
+    3300040: Picture_02
+    3300042: Picture_03
+    3300044: TV_01
+    3300046: TV_01_Frame
+    3300048: TV_02
+    3300050: TV_02_Frame
+    3300052: TV_03
+    3300054: TV_03_Frame
+    3300056: TV_04
+    3300058: TV_04_Frame
+    3300060: TV_05
+    3300062: TV_05_Frame
+    3300064: wall
+    3300066: Box_09
+    3300068: Box_10
+    3300070: Box_11
+    3300072: Picture_04
+    3300074: Picture_05
+    3300076: Picture_06
+    3300078: Picture_07
+    3300080: Picture_08
+    3300082: Picture_09
+    4300000: Ceiling
+    4300002: TV_01_Frame
+    4300004: Board
+    4300006: Metal_02
+    4300008: Box_01
+    4300010: LightBox
+    4300012: Cylinder
+    4300014: Picture_01
+    4300016: Box_06
+    4300018: BBox_07
+    4300020: Box_08
+    4300022: Box_05
+    4300024: Box_03
+    4300026: Box_04
+    4300028: Box_02
+    4300030: Glass
+    4300032: Metal_01
+    4300034: wall
+    4300036: Floor
+    4300038: Picture_02
+    4300040: Picture_03
+    4300042: Light
+    4300044: TV_02_Frame
+    4300046: TV_03_Frame
+    4300048: TV_04_Frame
+    4300050: TV_05_Frame
+    4300052: TV_01
+    4300054: TV_02
+    4300056: TV_03
+    4300058: TV_04
+    4300060: TV_05
+    4300062: Floor_02
+    4300064: Floor_03
+    4300066: Box_09
+    4300068: Box_10
+    4300070: Box_11
+    4300072: Picture_04
+    4300074: Picture_05
+    4300076: Picture_06
+    4300078: Picture_07
+    4300080: Picture_08
+    4300082: Picture_09
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Board
+    second: {fileID: 2100000, guid: 045a7659e5af5264093fcfb450eab24d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Box_01
+    second: {fileID: 2100000, guid: c01518f305098b7428dbd5ca6375363e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ceiling
+    second: {fileID: 2100000, guid: 16038103eb7110d4fb9386424a904494, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cylinder
+    second: {fileID: 2100000, guid: 5c0d7e5bcfeff0d45b1b3f5448e94d20, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Floor
+    second: {fileID: 2100000, guid: c4c1c48c565821b4e903607a395c4b01, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Floor_02
+    second: {fileID: 2100000, guid: 57b5bbe953372db41b490600f44d1529, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Floor_03
+    second: {fileID: 2100000, guid: af4bc55149c459241bcb094b35ec06d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Glass
+    second: {fileID: 2100000, guid: 7122f5dd15f30ab45af2bfadebb49de0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Light
+    second: {fileID: 2100000, guid: d283cd742c322b04eb52c26fb9cd4888, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LightBox
+    second: {fileID: 2100000, guid: 928f8b78cd7040049b93446ad6bea28b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal_01
+    second: {fileID: 2100000, guid: aa5de3092e36c924eb80723bc05edcdf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal_02
+    second: {fileID: 2100000, guid: 5843ce2665fc2c6409f900825d21cd7f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Picture_01
+    second: {fileID: 2100000, guid: 835f072fe07a23845a61bfd1d4a97457, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Picture_02
+    second: {fileID: 2100000, guid: e0d81f3475081b74cbb3e772559e7339, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Picture_03
+    second: {fileID: 2100000, guid: 13ed25de818b60a40b35cfa2ac39d686, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Picture_04
+    second: {fileID: 2100000, guid: a04b7ce158b4b004088568e174cad8fd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Picture_05
+    second: {fileID: 2100000, guid: f0f53d1ec36539848a88c2e66d58c029, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Picture_06
+    second: {fileID: 2100000, guid: b5cef7078f3bef04fa4e6c84aae77322, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Picture_07
+    second: {fileID: 2100000, guid: 8c2db781088f5324fa2f5ce9f32b36d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Picture_08
+    second: {fileID: 2100000, guid: 90ecd00b27eee9c4082ee4a9725e979d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Picture_09
+    second: {fileID: 2100000, guid: 9a6121c9a644ca0448ccfa36b658e01e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TV
+    second: {fileID: 2100000, guid: d963df32a4cd56e49a32947327e0b19a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TV_Farme
+    second: {fileID: 2100000, guid: ea725f1f04fd9ad4b8e15630eaaf4074, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wall
+    second: {fileID: 2100000, guid: a499b8ddd1bb2a5478da5510266b5673, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15
+    secondaryUVHardAngle: 80
+    secondaryUVPackMargin: 8
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

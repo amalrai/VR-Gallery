@@ -1,0 +1,58 @@
+diff --git a/node_modules/ant-design-vue/es/upload/Upload.js b/node_modules/ant-design-vue/es/upload/Upload.js
+index 6b70971..3085086 100644
+--- a/node_modules/ant-design-vue/es/upload/Upload.js
++++ b/node_modules/ant-design-vue/es/upload/Upload.js
+@@ -30,6 +30,7 @@ export default {
+     data: {},
+     accept: '',
+     beforeUpload: T,
++    afterUpload: T,
+     showUploadList: true,
+     listType: 'text', // or pictrue
+     disabled: false,
+@@ -90,6 +91,8 @@ export default {
+       } catch (e) {
+         /* do nothing */
+       }
++      console.log("onSuccess", response)
++      console.log(this.reAfterUpload(response));
+       var fileList = this.sFileList;
+       var targetItem = getFileItem(file, fileList);
+       // removed
+@@ -205,6 +208,14 @@ export default {
+       }
+       return true;
+     },
++    reAfterUpload: function reAfterUpload(response) {
++      var afterUpload = this.$props.afterUpload;
++      if (!afterUpload) {
++        return true;
++      }
++      afterUpload(response);
++      return true;
++    },
+     clearProgressTimer: function clearProgressTimer() {
+       clearInterval(this.progressTimer);
+     },
+@@ -276,7 +287,8 @@ export default {
+     var vcUploadProps = {
+       props: _extends({}, this.$props, {
+         prefixCls: prefixCls,
+-        beforeUpload: this.reBeforeUpload
++        beforeUpload: this.reBeforeUpload,
++        afterUpload: this.reAfterUpload,
+       }),
+       on: {
+         start: this.onStart,
+diff --git a/node_modules/ant-design-vue/es/upload/interface.js b/node_modules/ant-design-vue/es/upload/interface.js
+index 10a2082..9cebdcf 100644
+--- a/node_modules/ant-design-vue/es/upload/interface.js
++++ b/node_modules/ant-design-vue/es/upload/interface.js
+@@ -71,6 +71,7 @@ export var UploadProps = {
+   multiple: PropsTypes.bool,
+   accept: PropsTypes.string,
+   beforeUpload: PropsTypes.func,
++  afterUpload: PropsTypes.func,
+   // onChange: PropsTypes.func,
+   listType: PropsTypes.oneOf(['text', 'picture', 'picture-card']),
+   // className: PropsTypes.string,
